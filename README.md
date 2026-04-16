@@ -42,7 +42,7 @@ This project provides PowerShell-based automation scripts to collect system inve
 ## Output
 - CSV-based reports for all systems
 
-**Author**
+## Author
 Sachin Kumar  
 Azure & Infrastructure Engineer
 ## ⚠️ Troubleshooting
