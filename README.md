@@ -1,6 +1,6 @@
-# 🚀 Azure PowerShell Inventory Automation
+#  Azure PowerShell Inventory Automation
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is an enterprise-grade PowerShell automation solution designed to collect system inventory across standalone (workgroup) systems and Active Directory (domain) environments.
 
@@ -8,7 +8,7 @@ It provides centralized visibility into infrastructure by automating asset disco
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 In enterprise environments:
 
@@ -24,7 +24,7 @@ This leads to:
 
 ---
 
-## 💡 Solution
+##  Solution
 
 This solution automates:
 
@@ -36,7 +36,7 @@ This solution automates:
 
 ---
 
-## ⚙️ Features
+##  Features
 
 * ✔ Connectivity check (Online/Offline)
 * ✔ OS and system information
@@ -53,7 +53,7 @@ This solution automates:
 
 ---
 
-## 🧩 Project Structure (Development Approach)
+##  Project Structure (Development Approach)
 
 | Version | Script                      | Description                              |
 | ------- | --------------------------- | ---------------------------------------- |
@@ -67,7 +67,7 @@ This solution automates:
 
 ---
 
-## 🏢 Enterprise Use Cases
+##  Enterprise Use Cases
 
 * IT Asset Management
 * Infrastructure Monitoring
@@ -77,7 +77,7 @@ This solution automates:
 
 ---
 
-## 🛠️ Technologies & Tools
+##  Technologies & Tools
 
 * PowerShell 5.1+
 * CIM / WMI (Get-CimInstance)
@@ -211,7 +211,7 @@ Script failed due to mandatory credential prompt
 
 ---
 
-## 📚 Key Learnings
+##  Key Learnings
 
 * Local vs Remote execution in PowerShell
 * WinRM configuration in enterprise environments
@@ -222,7 +222,7 @@ Script failed due to mandatory credential prompt
 
 ---
 
-## 🚀 Final Outcome
+##  Final Outcome
 
 A production-ready automation tool capable of:
 
@@ -244,7 +244,7 @@ A production-ready automation tool capable of:
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * Task Scheduler automation
 * Email alerting system
