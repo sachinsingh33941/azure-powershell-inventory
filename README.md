@@ -1,50 +1,78 @@
-# Azure PowerShell Inventory Automation
+#  Azure PowerShell Inventory Automation
 
-##  Overview
-This project provides PowerShell-based automation scripts to collect system inventory from local machines and Active Directory domain environments.
+##  Project Overview
+This project is an enterprise-level PowerShell automation solution designed to collect system inventory from both standalone systems and Active Directory domain environments.
 
-## Features
-- Connectivity check (Online/Offline systems)
-- OS information collection
-- CSV report generation
-- Full system inventory (CPU, RAM, Disk, BIOS)
-- Network details (IP, MAC)
-- Domain vs Workgroup detection
-- Active Directory bulk inventory
+It helps IT teams automate asset discovery, monitoring, and reporting across infrastructure.
 
-## Scripts
-| Script | Description |
-|--------|------------|
-| 01-basic-connectivity.ps1 | Checks if system is online |
-| 02-os-info.ps1 | Fetch OS details |
-| 03-csv-export.ps1 | Export system data to CSV |
-| 04-inventory-basic.ps1 | Basic inventory collection |
-| 05-advanced-inventory.ps1 | Detailed system inventory |
-| 06-domain-inventory.ps1 | Collect inventory from all domain systems |
+---
 
-## Prerequisites
+##  Problem Statement
+In enterprise environments, manual tracking of system details is time-consuming and error-prone.
+
+This solution automates:
+- System discovery
+- Hardware & OS inventory
+- Network details collection
+- Domain-wide reporting
+
+---
+
+##  Features
+-  Connectivity check (Online/Offline)
+-  OS & system details
+-  CSV reporting
+-  Hardware inventory (CPU, RAM, Disk)
+-  Network details (IP, MAC)
+-  Domain vs Workgroup detection
+-  Active Directory bulk inventory
+
+---
+
+##  Project Structure
+Scripts are built in progressive levels:
+
+| Script | Purpose |
+|--------|--------|
+| 01 | Basic connectivity check |
+| 02 | OS information |
+| 03 | Export to CSV |
+| 04 | Basic inventory |
+| 05 | Advanced inventory |
+| 06 | Domain-wide inventory |
+
+---
+
+##  Enterprise Use Case
+- IT Asset Management  
+- Infrastructure Monitoring  
+- Audit & Compliance Reporting  
+- Server & Client Inventory Tracking  
+
+---
+
+##  Prerequisites
 - PowerShell 5.1+
-- Admin privileges
-- WinRM enabled on remote systems
-- Network connectivity between systems
+- Administrator access
+- WinRM enabled on target systems
+- Network connectivity (including VLAN routing)
+- Active Directory module (for domain script)
 
-##  Real-world Use Case
-- Enterprise IT asset management
-- Infrastructure monitoring
-- Audit & compliance reporting
+---
 
-##  Requirements for Domain Script
-- WinRM enabled (`Enable-PSRemoting`)
-- Firewall ports open (5985/5986)
-- Domain Admin or required permissions
-- AD module installed
+##  Limitations
+- Requires proper permissions
+- Depends on WinRM configuration
+- Systems behind restricted firewalls may not respond
 
-## Output
-- CSV-based reports for all systems
+---
 
-## Author
-Sachin Kumar  
-Azure & Infrastructure Engineer
+##  How to Run
+
+### Local Inventory
+```powershell
+.\05-advanced-inventory.ps1
+
 ## ⚠️ Troubleshooting
 
 ### 1. Script not running (Execution Policy Error)
@@ -55,7 +83,3 @@ File cannot be loaded because running scripts is disabled on this system.
 **Solution (Temporary - Recommended for testing):**
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-Solution (Permanent - User Level):
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-
-
