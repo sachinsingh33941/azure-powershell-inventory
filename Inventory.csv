@@ -1,0 +1,2 @@
+"ComputerName","Status","Domain","DeviceType","Manufacturer","Model","OS","CPU","RAM_GB","Disk_Free_GB","IPAddress","MACAddress","BIOSSerial"
+"localhost","Online","WORKGROUP","Laptop","Dell Inc.","Latitude 7480","Microsoft Windows 10 Pro","Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz","15.88","27.77","192.168.1.8","54:13:79:90:0E:3D","FTKTBH2"
