@@ -1,2 +1,2 @@
-"Hostname","NetworkType","Domain","IPAddress","MACAddress","DeviceType","Manufacturer","Model","BIOSVersion","RAM_GB","Processor","Disk_C_GB","OS","OSVersion"
-"DESKTOP-8LAKL93","Workgroup","WORKGROUP","192.168.1.8","54-13-79-90-0E-3D","Laptop","Dell Inc.","Latitude 7480","1.41.3","15.88","Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz","149.35","Microsoft Windows 10 Pro","10.0.19045"
+Hostname,NetworkType,Domain,IPAddress,MACAddress,DeviceType,Manufacturer,Model,BIOSVersion,RAM_GB,Processor,Disk_C_GB,OS,OSVersion
+DESKTOP-8LAKL93,Workgroup,WORKGROUP,192.168.1.8,54-13-79-94-0F-3D,Laptop,Dell Inc.,Latitude 7480,1.41.3,15.88,Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz,149.35,Microsoft Windows 10 Pro,10.0.19045
