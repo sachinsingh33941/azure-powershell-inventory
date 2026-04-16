@@ -64,15 +64,6 @@ Scripts are built in progressive levels:
 - Requires proper permissions
 - Depends on WinRM configuration
 - Systems behind restricted firewalls may not respond
-
----
-
-##  How to Run
-
-### Local Inventory
-```powershell
-.\05-advanced-inventory.ps1
-
 ## ⚠️ Troubleshooting
 
 ### 1. Script not running (Execution Policy Error)
@@ -83,3 +74,12 @@ File cannot be loaded because running scripts is disabled on this system.
 **Solution (Temporary - Recommended for testing):**
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+---
+
+##  How to Run
+
+### Local Inventory
+```powershell
+.\05-advanced-inventory.ps1
+
