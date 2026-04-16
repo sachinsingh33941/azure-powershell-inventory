@@ -42,6 +42,9 @@ This project provides PowerShell-based automation scripts to collect system inve
 ## Output
 - CSV-based reports for all systems
 
+**Author**
+Sachin Kumar  
+Azure & Infrastructure Engineer
 ## ⚠️ Troubleshooting
 
 ### 1. Script not running (Execution Policy Error)
@@ -55,6 +58,4 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 Solution (Permanent - User Level):
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
-**Author**
-Sachin Kumar  
-Azure & Infrastructure Engineer
+
